@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-honk": [
+        "dist/ngx-honk"
+      ],
+      "ngx-honk/*": [
+        "dist/ngx-honk/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
