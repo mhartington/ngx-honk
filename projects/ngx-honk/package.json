@@ -1,8 +1,25 @@
 {
   "name": "ngx-honk",
   "version": "0.0.1",
+  "author": "Mike Hartington",
+  "description": "Time to get honky",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhartington/ngx-honk"
+  },
+  "bugs": {
+    "url": "https://github.com/mhartington/ngx-honk/issues"
+  },
+  "homepage": "https://github.com/mhartington/ngx-honk",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "directive",
+    "honk"
+  ],
   "peerDependencies": {
-    "@angular/common": "^9.0.0-next.8",
-    "@angular/core": "^9.0.0-next.8"
+    "@angular/common": ">=8.0.0",
+    "@angular/core": ">=8.0.0"
   }
 }
